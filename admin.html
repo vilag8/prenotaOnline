@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenota online</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body class=body-container>
+    <header>
+        <nav class="navbar bg-light shadow p-3 mb-5 bg-light rounded bg-dark">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="index.html">Home</a>
+              </li>
+            </ul>
+          </nav>      
+    </header>
+    
+    <main>
+        <div class="container">
+                  <h4 class="text-center mt-3">Gestione prenotazioni</h4>
+                  <hr>
+                <table class="table table-dark rounded shadow-lg p-3 mb-5 rounded">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Pestazione</th>
+                        <th scope="col">Giorno e ora</th>
+                        <th scope="col">Telefono</th>
+                        <th scope="col">Modifica</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Contatti commerciali</td>
+                        <td>02/09/2020 11:30</td>
+                        <td>333333333</td>
+                        <td>
+                            <button type="button" class="remove btn btn-outline-danger mr-3">Elimina</button>
+                            <button type="button" class="btn btn-outline-light">Modifica</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Assistenza GIS</td>
+                        <td>04/09/2020 9:30</td>
+                        <td>333333333</td>
+                        <td>
+                            <button type="button" class="remove btn btn-outline-danger mr-3">Elimina</button>
+                            <button type="button" class="btn btn-outline-light">Modifica</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Realizzazione siti web</td>
+                        <td>05/09/2020 11:00</td>
+                        <td>333333333</td>
+                        <td>
+                            <button type="button" class="remove btn btn-outline-danger mr-3">Elimina</button>
+                            <button type="button" class="btn btn-outline-light">Modifica</button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+          </div>    
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
